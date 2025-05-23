@@ -204,8 +204,7 @@ class PetFinderApp:
         stats = [
             f"Total mascotas registradas: {len(self.controller.mascotas)}",
             f"Mascotas perdidas: {len(self.controller.obtener_mascotas(estado='extraviada'))}",
-            f"Mascotas en adopción: {len(self.controller.obtener_mascotas(estado='en_adopcion'))}",
-            f"Mascotas encontradas: {len(self.controller.obtener_mascotas(estado='encontrada'))}"
+            f"Mascotas en adopción: {len(self.controller.obtener_mascotas(estado='en_adopcion'))}"
         ]
         
         for stat in stats:
