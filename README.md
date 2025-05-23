@@ -15,4 +15,5 @@ PetFinder es una aplicación de escritorio desarrollada en Python con interfaz g
 ## Instalación
 1. Clonar el repositorio:
    ```bash
-   git clone https://github.com/tu_usuario/petfinder.git
+   git clone https://github.com/Juanca17-1/Proyecto-FInal
+   
